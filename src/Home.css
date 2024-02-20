@@ -1,0 +1,44 @@
+/* home.css */
+.home-container {
+     background-image: url('http://www.jivasoftware.com/images/other/responsive-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  /* .logo {
+    max-width: 200px;
+    margin: 0 auto 20px; 
+  } */
+  
+  .welcome {
+    font-size: 2.5rem;
+    margin-bottom: px;
+    color:aliceblue
+  }
+  
+  .head{
+    color:aliceblue;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .mid-content {
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .home-container {
+      padding: 100px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  

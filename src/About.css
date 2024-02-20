@@ -1,0 +1,29 @@
+/* about.css */
+.about-container {
+    display: flex;
+    background-color: #d5e7f8;
+    height: 100vh; /* Make the container take up the full height of the viewport */
+  }
+  .para{
+    color:black
+  }
+  .about-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  .h1{
+text-align: center;
+  }

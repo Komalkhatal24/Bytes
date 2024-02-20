@@ -1,0 +1,40 @@
+.connect-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Background color for the entire component */
+  }
+  
+  .connect-form {
+    width: 45%; /* Adjust as needed */
+  }
+  
+  .connect-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .connect-form label,
+  .connect-form input,
+  .connect-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .connect-form input,
+  .connect-form button {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .connect-image {
+    width: 45%; /* Adjust as needed */
+  }
+  
+  .connect-image img {
+    padding: 10p;
+    width: 80%; /* Image size */
+    border-radius: 8px;
+  }
+  

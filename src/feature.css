@@ -1,0 +1,21 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: px;
+  background-color: #b5d0eb;
+}
+
+.feature-image {
+  width: 50%; /* Set the width of the image */
+  height: 50%; /* Set the height of the image */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Add some space between the image and the title */
+}
+
+.feature-title {
+  font-size: 30px; /* Set the font size of the title */
+  font-weight: bold; /* Make the title bold */
+  text-align: center; /* Center-align the title */
+}
